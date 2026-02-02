@@ -46,7 +46,7 @@ This project is modularized into three analytical scripts, each addressing a spe
 ## Analytical Output 
 *The query below demonstrates the use of Window Functions to smooth out salary volatility, allowing us to see the true trend (Moving Average) vs. the noise (Raw Average).*
 
-![Moving Average Trend](assets/images/moving avg output (1).JPG)
+![Moving Average Trend](https://github.com/AkshitVerma97/mlb-talent-analytics-sql/blob/8dcf7c89a6c43c1e63710c6ea54071d500566a10/assets/images/moving%20avg%20output%20(1).JPG)
 *(Figure 1: Result set showing how the 3-Year Rolling Average smooths year-over-year variance)*
 
 ---
@@ -54,7 +54,7 @@ This project is modularized into three analytical scripts, each addressing a spe
 ## Automation Logic (Recursive CTEs)
 *To support the reporting dashboard, I engineered a Recursive Common Table Expression (CTE) to automatically generate reporting timelines without needing a physical calendar table.*
 
-![Recursive CTE Output](assets/images/recursive cte output.JPG)
+![Recursive CTE Output](https://github.com/AkshitVerma97/mlb-talent-analytics-sql/blob/8dcf7c89a6c43c1e63710c6ea54071d500566a10/assets/images/recursive%20cte%20output.JPG)
 *(Figure 2: Dynamic generation of reporting periods using SQL recursion)*
 
 ---
