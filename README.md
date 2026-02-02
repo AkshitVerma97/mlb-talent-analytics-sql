@@ -11,7 +11,7 @@ Optimizing player recruitment strategies using Advanced SQL (Window Functions) a
 
 ---
 
-## he Business Question
+## The Business Question
 **"How do we distinguish between a 'One-Hit Wonder' and a consistent high-performer when analyzing multi-year player data?"**
 
 Raw season data is volatile. A player might have one breakout year followed by a slump. To build a reliable recruitment strategy, the team needed to smooth out this volatility and identify players with **sustained performance** over a 5-year period.
@@ -37,9 +37,9 @@ Instead of working on a static local file, I connected to a live **AWS RDS** ins
 ## Repository Structure
 This project is modularized into three analytical scripts, each addressing a specific aspect of the data pipeline:
 
-* **'src/01_master_data_view.sql'**: Data Engineering script constructing a unified 'Player_History' view from 5+ raw tables using CTEs.
-* **'src/02_valuation_modeling.sql'**: Financial analysis script calculating **3-Year Rolling Averages** to smooth salary volatility.
-* **'src/03_reporting_automation.sql'**: Utility scripts using **Recursive CTEs** and **PIVOT** tables to automate dashboard reporting.
+* **src/01_master_data_view.sql**: Data Engineering script constructing a unified 'Player_History' view from 5+ raw tables using CTEs.
+* **src/02_valuation_modeling.sql**: Financial analysis script calculating **3-Year Rolling Averages** to smooth salary volatility.
+* **src/03_reporting_automation.sql**: Utility scripts using **Recursive CTEs** and **PIVOT** tables to automate dashboard reporting.
 
 ---
 
